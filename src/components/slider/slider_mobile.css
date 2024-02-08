@@ -1,0 +1,36 @@
+@media screen and (max-width: 769px) {
+    .swiper {
+        margin-top: 35px;
+    }
+    .swiper-wrapper {
+        height: 100%;
+        width: auto;
+        position: relative;
+      }
+    .swiper-slide {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: baseline;
+        align-items: stretch;
+      }
+      .swiper-slide-doctor_img {
+        margin-bottom: -8px;
+      }
+      .swiper-slide-doctor_img img {
+        max-width: 100%;
+      }
+      .swiper-slide-sell {
+        all: unset;
+        width: 100%;
+        -webkit-clip-path: none;
+                clip-path: none;
+        background-color: #E2F0EF;
+      }
+      .swiper-slide-sell-checkup_container {
+        bottom: 42px;
+        margin-left: 23px;
+      }
+      .container-pagination {
+        margin-top: 22px;
+      }
+}

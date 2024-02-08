@@ -1,0 +1,34 @@
+.clinic {
+    background-color: #F8FBFA;
+  }
+  
+  .clinic-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 144px;
+    row-gap: 14px;
+  }
+  
+  .clinic-info-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #364844;
+    max-width: 416px;
+  }
+  
+  .clinic-description {
+    color: #364844;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 367px;
+  }
+  
+  .clinic-image_block {
+    margin-left: 164px;
+  }
+
+  @media screen and (max-width: 1850px) {
+    .container {
+      overflow: hidden;
+    }
+  }

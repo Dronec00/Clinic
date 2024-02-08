@@ -1,0 +1,18 @@
+@media screen and (max-width: 769px) {
+    .clinic-mobile-img_block img {
+        max-width: 100%;
+        height: auto;
+      }
+      .clinic-about {
+        margin-top: 35px;
+      }
+      .clinic-info-heading {
+        font-size: 26px;
+      }
+      .clinic-description {
+        margin-top: 9px;
+        font-size: 14px;
+        margin-bottom: 53px;
+        min-width: 340px;
+      }
+}

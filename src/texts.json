@@ -1,0 +1,24 @@
+{
+    "clinic": [
+        {"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"}
+    ],
+    "question": [
+        {
+        "heading1": "Заголовок часто задаваемого вопроса",
+        "text": "Blandit et et ac non interdum odio tristique diam vestibulum. Velit in quis consequat lacus fringilla amet elementum pharetra massa. Morbi euismod nulla cras adipiscing tristique aliquet purus adipiscing."    
+        },
+        {
+        "heading2": "Заголовок часто задаваемого вопроса с двумя абзацами",
+        "par1": "Blandit et et ac non interdum odio tristique diam vestibulum. Velit in quis consequat lacus fringilla amet elementum pharetra massa. Morbi euismod nulla cras adipiscing tristique aliquet purus adipiscing.",    
+        "par2": "Это предложение должно здесь быть. Massa arcu volutpat blandit augue nibh nisl fames. Sodales pharetra nisi quis purus lacinia. Sapien cras posuere dolor tincidunt quis sed adipiscing."    
+        },
+        {
+        "heading3": "Заголовок часто задаваемого вопроса",
+        "text": "Blandit et et ac non interdum odio tristique diam vestibulum. Velit in quis consequat lacus fringilla amet elementum pharetra massa. Morbi euismod nulla cras adipiscing tristique aliquet purus adipiscing."    
+        },
+        {
+        "heading4": "Заголовок часто задаваемого вопроса",
+        "text": "Blandit et et ac non interdum odio tristique diam vestibulum. Velit in quis consequat lacus fringilla amet elementum pharetra massa. Morbi euismod nulla cras adipiscing tristique aliquet purus adipiscing."    
+        }
+    ]
+}

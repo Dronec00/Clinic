@@ -1,0 +1,34 @@
+@media screen and (max-width: 769px) {
+    .bottom-nav-container {
+        margin-top: 35px;
+    }
+    .bottom-nav-container .container {
+        position: relative;
+        height: 291px;
+      }
+      .bottom-nav-container-navigation ul {
+        display: block;
+      }
+      .bottom-nav-container-logo {
+        padding: 42px 0 0 0;
+      }
+      .bottom-nav-container-social_media {
+        position: absolute;
+        right: 18px;
+        top: 46px;
+      }
+      .bottom-nav-container-social_media img {
+        width: 24px;
+        height: 24px;
+      }
+      .bottom-nav-container-navigation {
+        position: absolute;
+        top: 80px;
+      }
+      .bottom-nav-container-navigation ul {
+        padding: 0;
+      }
+      .bottom-nav-container-navigation ul li {
+        padding: 7.5px;
+      }
+}

@@ -1,0 +1,215 @@
+.containerSlide {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+  
+  .swiper {
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .swiper-wrapper {
+    height: 440.5px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .swiper-slide-sell {
+    position: absolute;
+    left: 0;
+    background-color: #E2F0EF;
+    top: 0;
+    width: 613px;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  }
+  
+  .swiper-slide-doctor_img {
+    height: 100%;
+  }
+  
+  .swiper-slide-sell-checkup_container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 53px;
+    margin-left: 63px;
+  }
+  
+  .swiper-slide-sell_h, .swiper-slide-sell_formen {
+    font-weight: 700;
+    opacity: 0.7;
+  }
+  
+  .swiper-slide-sell_h {
+    font-size: 38px;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide-sell_formen {
+    font-size: 22px;
+  }
+  
+  .swiper-slide-sell_ul {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    padding-top: 16px;
+    list-style: none;
+  }
+  
+  .swiper-slide-sell_ul li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .swiper-slide-sell_ul li:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1FA181;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-slide-sell-checkup_container-price {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+  
+  .swiper-slide-sell_price {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .swiper-slide-sell_oldprice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #868686;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: line-through;
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons {
+    margin-top: 26px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons-sign, .swiper-slide-sell-checkup_container-buttons-more {
+    width: 196px;
+    height: 43px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons-sign {
+    width: 196px;
+    height: 43px;
+    border-radius: 50px;
+    background: #0DBC91;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons-sign:hover {
+    background-color: #00D29F;
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons-more {
+    display: inline-block; 
+    width: 196px;
+    height: 43px;
+    border: 1px solid #0DBC91;
+    border-radius: 50px;
+    background: inherit;
+    color: #0DBC91; 
+    text-align: center; 
+    text-decoration: none; 
+    line-height: 43px; 
+  }
+  
+  .swiper-slide-sell-checkup_container-buttons-more:hover {
+    background: #0DBC91;
+    color: #fff;
+  }
+  
+  .container-pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    width: 169px;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 34px;
+  }
+  
+  .swiper-pagination {
+    display: flex;
+    color: #868686;
+    align-items: center;
+    z-index: 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    
+  }
+  .swiper-pagination-fraction {
+    left: calc(50% - 12px);
+    white-space: nowrap;
+  }
+
+  .swiper-pagination-current {
+    color: #364844;
+  }
+  
+  .swiper-button-prev::after, .swiper-button-next::after {
+    content: "";
+  }
+  
+  .swiper-button-prev {
+    left: 0;
+    width: 34px;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+    width: 34px;
+  }
+  
+  .swiper-button-prev:hover img {
+    filter: hue-rotate(120deg);
+  }
+  
+  .swiper-button-prev svg:hover path {
+    fill: #0DBC91;
+  }
+  
+  .swiper-button-next svg:hover path {
+    fill: #0DBC91;
+  }
