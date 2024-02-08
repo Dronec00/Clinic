@@ -32,7 +32,7 @@ export default function Header() {
                             <span>+7(863) 000 00 00</span>
                         </a>
                         <button className="button-form" onClick={formActive}>
-                            <a href="/#">Записаться на прием</a> 
+                            <a>Записаться на прием</a> 
                         </button>
                     </div>
                     
