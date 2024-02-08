@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clinic/static/css/main.2da44060.css",
+    "main.js": "/clinic/static/js/main.887de68a.js",
+    "static/media/PT_Sans-Caption-Web-Regular.ttf": "/clinic/static/media/PT_Sans-Caption-Web-Regular.1275e0db90b3987f1dba.ttf",
+    "static/media/doctor-working-table 1.png": "/clinic/static/media/doctor-working-table 1.0a8dbca91272f4abb8bd.png",
+    "static/media/Clinic.png": "/clinic/static/media/Clinic.dd17d156723daacacb9e.png",
+    "static/media/whatsapp_bottom.svg": "/clinic/static/media/whatsapp_bottom.d4ead9ef462a8e25fafe871723826824.svg",
+    "static/media/telegram.svg": "/clinic/static/media/telegram.c58ed4459e07c65f18ebfd797d1d95cc.svg",
+    "static/media/logo.svg": "/clinic/static/media/logo.41b8e767781f9a7c3d72e99b4f291ffc.svg",
+    "static/media/logo_bottom.svg": "/clinic/static/media/logo_bottom.30111c501135cc29b22737e848991143.svg",
+    "static/media/instagram 4 1.svg": "/clinic/static/media/instagram 4 1.6c8d107359679aabbdcfcab4fe3f1569.svg",
+    "static/media/whatsapp.svg": "/clinic/static/media/whatsapp.8c4428f53c168a8290ea336d05ff5f3f.svg",
+    "index.html": "/clinic/index.html",
+    "static/media/placeholder.svg": "/clinic/static/media/placeholder.74c98bdfb8ec578718a571bb536ce2a0.svg",
+    "main.2da44060.css.map": "/clinic/static/css/main.2da44060.css.map",
+    "main.887de68a.js.map": "/clinic/static/js/main.887de68a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2da44060.css",
+    "static/js/main.887de68a.js"
+  ]
+}
