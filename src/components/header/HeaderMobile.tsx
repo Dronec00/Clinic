@@ -5,8 +5,8 @@ import {Context} from '../Context'
 import {ItemType} from '../types/types'
 
 const HeaderMobile : React.FC<any> = () => {
-    const [active, setActive] = useState<boolean>(false)
-    const {formActive, formState ,items} = useContext(Context)
+    const [active, setActive] = useState<boolean>(false);
+    const {formActive, formState ,items} = useContext(Context);
 
     const menuMobile = useMemo(() => {
         return items.map((item: ItemType, idx: number) => {
