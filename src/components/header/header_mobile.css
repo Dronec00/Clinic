@@ -85,10 +85,11 @@
       margin-top: 31px;
       left: 0;
       z-index: 5;
-      transition: height 0.4s;
+      transition: height 0.5s;
     }
+
     .menu.active {
-      height: 100vh;
+      height: 3000px;
     }
     
     .menu li {
@@ -132,4 +133,5 @@
     .header-top {
       padding: 5px 0;
     }
+
   }

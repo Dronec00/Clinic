@@ -1,12 +1,13 @@
 import './header_mobile.css'
 import logo from '../../assets/img/logo.svg'
-import { useState, useContext, useMemo } from 'react'
+import { useState, useContext, useMemo, useEffect } from 'react'
 import {Context} from '../Context'
 import {ItemType} from '../types/types'
 
 const HeaderMobile : React.FC<any> = () => {
     const [active, setActive] = useState<boolean>(false)
     const {formActive, formState ,items} = useContext(Context)
+
     const menuMobile = useMemo(() => {
         return items.map((item: ItemType, idx: number) => {
             if(idx === 0) {
