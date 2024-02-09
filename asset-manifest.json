@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clinic/static/css/main.cc9a9314.css",
-    "main.js": "/clinic/static/js/main.2a44a6bb.js",
+    "main.css": "/clinic/static/css/main.4baff4bc.css",
+    "main.js": "/clinic/static/js/main.e04ae68d.js",
     "static/media/PT_Sans-Caption-Web-Regular.ttf": "/clinic/static/media/PT_Sans-Caption-Web-Regular.1275e0db90b3987f1dba.ttf",
     "static/media/doctor-working-table 1.png": "/clinic/static/media/doctor-working-table 1.0a8dbca91272f4abb8bd.png",
     "static/media/Clinic.png": "/clinic/static/media/Clinic.dd17d156723daacacb9e.png",
@@ -13,11 +13,11 @@
     "static/media/whatsapp.svg": "/clinic/static/media/whatsapp.760818427594e02f04af59048bb14c5e.svg",
     "index.html": "/clinic/index.html",
     "static/media/placeholder.svg": "/clinic/static/media/placeholder.73fae73621e6e52f9945f419a3c84669.svg",
-    "main.cc9a9314.css.map": "/clinic/static/css/main.cc9a9314.css.map",
-    "main.2a44a6bb.js.map": "/clinic/static/js/main.2a44a6bb.js.map"
+    "main.4baff4bc.css.map": "/clinic/static/css/main.4baff4bc.css.map",
+    "main.e04ae68d.js.map": "/clinic/static/js/main.e04ae68d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc9a9314.css",
-    "static/js/main.2a44a6bb.js"
+    "static/css/main.4baff4bc.css",
+    "static/js/main.e04ae68d.js"
   ]
 }
